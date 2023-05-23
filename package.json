@@ -1,0 +1,14 @@
+{
+  "name": "running_track_schedule",
+  "version": "1.0.0",
+  "description": "scheduler for lesson at the running track",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
