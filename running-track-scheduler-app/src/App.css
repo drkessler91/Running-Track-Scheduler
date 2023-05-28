@@ -1,0 +1,89 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Week {
+  background-color:lightcoral;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin-top: 0px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid white;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: lightcoral;
+  color: white;
+}
+
+.instructor-list {
+  list-style-type: disc; /* Show bullet points */
+  padding-left: 20px; /* Add left padding for space */
+  
+}
+
+.instructor-item {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Add space between text and button */
+  margin-bottom: 10px; /* Add bottom margin for spacing between items */
+  
+}
+
+.instructor-btn{
+  margin-left: 10px;
+}
+
+
+.schedule-heading {
+  margin-bottom: 30px; /* Add bottom margin to create a gap */
+}
